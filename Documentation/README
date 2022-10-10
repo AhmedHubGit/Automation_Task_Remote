@@ -1,0 +1,24 @@
+For Both API and Mobile 
+- Make sure that you have eclipse or intellij
+- Make sure that you got Maven for the dependencies and the below dependencies added
+	- org.testng
+	- org.seleniumhq.selenium
+- Make sure that you got TestNG for the annotations
+-----------------------------------------------------------------------------------------
+For API
+- Add the dependency for rest-assured
+- 
+-----------------------------------------------------------------------------------------
+For Mobile
+- Add the dependency for io.appium
+- Have andriod Studio installed so that you can download the emulator
+- once you installed your emulator follow the below steps
+		- make sure that you selected app store to be used on the emulator 
+		- download Facebook app 
+		- Make sure that auto-fill setting is not marked on your emulator 
+		- go to BasePage_Mobile_Task Folder and open Base Class
+		- set the DesiredCapabilities for your emulator		
+- Have appium installed on your machine so you can run your test case
+-Make sure that appium is open and running and that your device is shown in the CMD before you run the intellij code
+
+
